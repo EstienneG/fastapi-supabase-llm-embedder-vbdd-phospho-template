@@ -11,6 +11,7 @@ from common.api_global_variables import api_global_variables
 from common.constants import (
     GROQ_API_KEY,
     PHOSPHO_API_KEY,
+    PHOSPHO_PROJECT_ID,
     SUPABASE_API_KEY,
     SUPABASE_URL,
 )
@@ -37,7 +38,7 @@ async def lifespan(_: FastAPI) -> AsyncGenerator[None, None]:
         api_key=GROQ_API_KEY,
     )
 
-    phospho.init(api_key=PHOSPHO_API_KEY, project_id="377e4f22774446849175109f663ad991")
+    phospho.init(api_key=PHOSPHO_API_KEY, project_id=PHOSPHO_PROJECT_ID)
 
     # api_global_variables.qdrant_client = QdrantClient(
     #     host=QDRANT_HOST, port=QDRANT_PORT

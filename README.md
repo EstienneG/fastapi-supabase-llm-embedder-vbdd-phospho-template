@@ -28,6 +28,7 @@ Copy .env.example file in the project root and add the following environment var
 ```bash
   # OpenAI API for embedding
   PHOSPHO_API_KEY=<your_phospho_api_key>
+  PHOSPHO_PROJECT_ID=<your_phospho_project_id>
   GROQ_API_KEY=<your_groq_api_key>
   OPENAI_API_KEY=<your_openai_api_key>
 

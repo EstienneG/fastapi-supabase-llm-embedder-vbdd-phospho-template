@@ -26,3 +26,4 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Phospho config
 PHOSPHO_API_KEY = os.getenv("PHOSPHO_API_KEY")
+PHOSPHO_PROJECT_ID = os.getenv("PHOSPHO_PROJECT_ID")
