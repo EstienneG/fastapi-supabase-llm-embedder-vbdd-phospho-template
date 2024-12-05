@@ -1,0 +1,12 @@
+uvicorn==0.27.1
+fastapi==0.110.0
+qdrant-client==1.8.0
+python-dotenv
+openai
+psycopg2-binary
+groq
+pymupdf4llm
+python-multipart
+phospho
+PyMuPDF
+supabase
